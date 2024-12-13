@@ -28,7 +28,7 @@ and is added to work with Laravel.
 <img src="https://github.com/kovyakin/components/blob/master/src/docs/images_charts/1.png" alt="image">
 
 ## Step by step
-- git clone https://github.com/kovyakin/table.git
+- git clone https://github.com/kovyakin/charts.git
 - composer update --no-scripts 
 - Set .env your data db;
 - php artisan key:generate;
