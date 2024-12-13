@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "626b9e7ddd47fb7eff9aaa53cce0c9ad",
+    "content-hash": "b81681e2fd606e783cddd6ce254d5540",
     "packages": [
         {
             "name": "brick/math",
@@ -1053,6 +1053,54 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "kovyakin/components",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kovyakin/components.git",
+                "reference": "95d61b4b35f4efdad363f857a8d58909c24bb2b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kovyakin/components/zipball/95d61b4b35f4efdad363f857a8d58909c24bb2b9",
+                "reference": "95d61b4b35f4efdad363f857a8d58909c24bb2b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kovyakin\\Components\\App\\Providers\\ComponentsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kovyakin\\Components\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Kovyakin",
+                    "email": "kdv-1974@mail.ru",
+                    "homepage": "https://github.com/kovyakin"
+                }
+            ],
+            "description": "components vue3 for Laravel",
+            "support": {
+                "issues": "https://github.com/kovyakin/components/issues",
+                "source": "https://github.com/kovyakin/components/tree/1.0.3"
+            },
+            "time": "2024-12-13T10:39:38+00:00"
         },
         {
             "name": "laravel/framework",
